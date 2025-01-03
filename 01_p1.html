@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>substraction</title>
+            </head>
+            <body>
+               
+                   <form method="post" action="" onsubmit="f2(); return false">
+                           <input type="text" name="v1" id="v1">
+                                   <input type="text" name="v2" id="v2">
+                                           <input type="submit" name="submit" value="submit">
+                                               </form>
+                                                   <p id="HARI"></p>
+                                                       <script>
+                                                               function f2()
+                                                                       {
+                                                                                   v1 = parseInt(document.getElementById("v1").value);
+                                                                                               v2 = parseInt(document.getElementById("v2").value);
+                                                                                                           subsract=v1-v2;
+
+                                                                                                                       document.getElementById("HARI").innerHTML="SUBSTRACTION OF TWO NUMBERS= "+subsract;
+                                                                                                                               }
+                                                                                                                                   </script>
+                                                                                                                                   </body>
+                                                                                                                                   </html>
